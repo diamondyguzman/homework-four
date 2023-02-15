@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+.home .hero {
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../../images/hero.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .hero .callout {
+  width: 714px;
+  height: 155px;
+  margin: 0 auto;
+  color: white;
+  padding-top: 162px;
+}
+.home .hero .callout .title {
+  font-size: 60px;
+  font-family: ProxThin;
+  text-transform: lowercase;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.home .hero .callout .info {
+  font-size: 20px;
+  font-family: Gill Sans;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.home .hero .callout .read-more {
+  width: 130px;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #79ADDC;
+  border-radius: 0;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  font-family: Gill Sans;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.home .promo-trips {
+  margin-top: -50px;
+  min-height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.home .promo-trips .promo-eventsI {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour/tour-01.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-right: 55px;
+}
+.home .promo-trips .promo-eventsI .title {
+  font-size: 60px;
+  font-family: ProxThin;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 32px;
+}
+.home .promo-trips .promo-eventsI .price {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+.home .promo-trips .promo-eventsI .learn-more {
+  width: 133px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  font-family: Gill Sans;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 85px;
+}
+.home .promo-trips .promo-eventsU {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour/tour-02.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-right: 55px;
+}
+.home .promo-trips .promo-eventsU .title {
+  font-size: 60px;
+  font-family: ProxThin;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 32px;
+}
+.home .promo-trips .promo-eventsU .price {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+.home .promo-trips .promo-eventsU .learn-more {
+  width: 133px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  font-family: Gill Sans;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 85px;
+}
+.home .promo-trips .promo-eventsA {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/../images/tour/tour/tour-03.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/../images/tour/tour/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.home .promo-trips .promo-eventsA .title {
+  font-size: 45px;
+  font-family: ProxThin;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 32px;
+  text-transform: uppercase;
+}
+.home .promo-trips .promo-eventsA .price {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+}
+.home .promo-trips .promo-eventsA .learn-more {
+  width: 133px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  font-family: Gill Sans;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 85px;
+}
+.home .booking {
+  min-height: 400px;
+  padding: 50px;
+  color: black;
+  font-size: 18px;
+  font-family: Gill Sans;
+}
+.home .booking .booking-wrapper {
+  max-width: 818px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: Gill Sans;
+}
+.home .booking .booking-wrapper h1 {
+  font-size: 60px;
+  font-family: ProxThin;
+}
+.home .booking .booking-wrapper .long-input {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+.home .booking .booking-wrapper .long-input label {
+  width: 20%;
+}
+.home .booking .booking-wrapper .long-input input {
+  width: 80%;
+  height: 60px;
+  border: solid 1px #79ADDC;
+}
+.home .booking .booking-wrapper .long-input img {
+  position: absolute;
+  left: 95%;
+  width: 20px;
+  height: 20px;
+}
+.home .booking .booking-wrapper .booking-submit {
+  width: 100%;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  font-family: Gill Sans;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.home .booking .booking-wrapper .form-info {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home .booking .booking-wrapper .form-info .left {
+  width: 344px;
+  height: 100%;
+  border: solid 1px #79ADDC;
+}
+.home .booking .booking-wrapper .form-info .right {
+  width: 453px;
+  height: 100%;
+  border: solid 1px #79ADDC;
+}
+.home .booking .booking-wrapper .form-info ::-webkit-input-placeholder {
+  color: black;
+}
+.home .booking .booking-wrapper .form-info ::-moz-placeholder {
+  color: black;
+}
+.home .booking .booking-wrapper .form-info :-ms-input-placeholder {
+  color: black;
+}
+.home .booking .booking-wrapper .form-info ::-ms-input-placeholder {
+  color: black;
+}
+.home .booking .booking-wrapper .form-info ::placeholder {
+  color: black;
+}
+.home .booking .booking-wrapper .form-message {
+  width: 818px;
+  height: 192px;
+  border: #79ADDC solid 1px;
+  margin-bottom: 40px;
+}
+.home .booking .booking-wrapper .form-message input {
+  border: none;
+  margin: 18px 20px;
+}
+.home .booking .booking-wrapper .form-message ::-webkit-input-placeholder {
+  color: black;
+}
+.home .booking .booking-wrapper .form-message ::-moz-placeholder {
+  color: black;
+}
+.home .booking .booking-wrapper .form-message :-ms-input-placeholder {
+  color: black;
+}
+.home .booking .booking-wrapper .form-message ::-ms-input-placeholder {
+  color: black;
+}
+.home .booking .booking-wrapper .form-message ::placeholder {
+  color: black;
+}
+
+@media only screen and (max-width: 700px) {
+  .promo-trips {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .promo-trips .promo-eventsI {
+    margin-bottom: 20px;
+  }
+}
+.home-nav {
+  position: fixed;
+  height: 90px;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: solid 2px white;
+}
+.home-nav .logo {
+  width: 136px;
+  height: 50px;
+  width: 136px;
+  height: 42px;
+  background-image: url(../../images/logo/logo-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home-nav .links {
+  width: 400px;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #79ADDC;
+}
+.home-nav .links a {
+  color: white;
+  text-transform: lowercase;
+  text-decoration: none;
+  font-family: Gill Sans;
+  font-size: 15px;
+}
+
+nav {
+  height: 90px;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: solid 2px black;
+}
+nav .logo {
+  width: 136px;
+  height: 42px;
+  background-image: url(../images/logo/logo-black.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav .links {
+  width: 400px;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #79ADDC;
+}
+nav .links a {
+  color: black;
+  text-transform: lowercase;
+  text-decoration: none;
+  font-family: Gill Sans;
+  font-size: 15px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+}
+footer .logo {
+  width: 136px;
+  height: 42px;
+  background-image: url(../../images/logo/logo-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer .copyRights {
+  width: 350px;
+  font-size: 12px;
+  font-family: Gill Sans;
+}
+footer .socials {
+  width: 109px;
+  height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
